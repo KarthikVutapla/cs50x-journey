@@ -17,6 +17,12 @@ init main(void){
 
 >Output : Hello, world!
 
+<br>
+
+---
+
+<br>
+
 > ## 2. get_string (cs50 library string input command)
 
 
