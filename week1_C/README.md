@@ -17,7 +17,7 @@ init main(void){
 
 >Output : Hello, world!
 
-> ## 2. get_string (cs50 library sting input command)
+> ## 2. get_string (cs50 library string input command)
 
 
 This just asks the user for a string input and it takes it and if defined in a variable its stored in there.
