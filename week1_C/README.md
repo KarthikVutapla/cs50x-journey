@@ -11,7 +11,7 @@ example
 #include <stdio.h>
 
 init main(void){
-    printf("Hello, world!\n")
+    printf("Hello, world!\n");
 }
 ```
 
@@ -32,9 +32,9 @@ However i didn't try like what happens if we give an integer (probably will stor
 
 int main(void){
     // here name is a variable which holds string.
-    string name = get_string("What is your name: ")
+    string name = get_string("What is your name: ");
 
     // %s here is just a string placeholder
-    printf("Hello %s\n", name)
+    printf("Hello %s\n", name);
 }
 ```
