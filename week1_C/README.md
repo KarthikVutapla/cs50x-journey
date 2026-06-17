@@ -73,3 +73,65 @@ printf("Your age is %n",age)
 beacuse its not a "number" its an "integer" soo
 
 ` %n ❌  %i ✅`
+
+```C
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("Give an integer x: ");
+    int y = get_int("Give an integer y: ");
+
+    if (x < y)
+    {
+        printf("%i is less than %i\n",x,y);
+    }
+    else if (x > y)
+    {
+        printf("%i is greater than %i\n",x,y);
+    }
+    else
+    {
+        printf("%i is equal to %i\n",x,y);
+    }
+    
+}
+```
+
+The code is pretty self explinatory im not gonna explain it again figure it out yourselves.
+
+<br>
+
+---
+
+<br>
+
+> ## 4. Conditionals (agree or not)
+
+```C
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    char c = get_char("Do you agree to the T/C [Y/N]: ");
+
+    if (c == 'Y')
+    {
+        printf("Good boyy\n");
+    }
+    else if (c == 'N')
+    {
+        printf("you are not allowed here\n");
+    }
+    else 
+    {
+        printf("You either typed something other than Y/N or didn't type it in capitals, try it again\n");
+    }
+}
+```
+
+Here I noticed something ( I mean he answered it in cs50 too but I noticed it too..)
+
+`Observation: ` when you use ```C cs50.h``` library then if I use something like ```C get_string()``` and I give an integer, then it will keep looping and prompting me again and again till I give it a data_type that its looking for!
