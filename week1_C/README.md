@@ -44,3 +44,32 @@ int main(void){
     printf("Hello %s\n", name);
 }
 ```
+
+<br>
+
+---
+
+<br>
+
+> ## 3. Conditionals
+
+I wanna mention something here! It's small but I wanna mention it!
+
+I was writing a code and naturally this happened..
+
+```C
+printf("Hello %s, Good to see you here!", name)
+```
+so this works for string right? "%s"
+
+<br>
+
+so I did this for integer and I got it wrong
+```C
+printf("Your age is %n",age)
+```
+
+### Why this is wrong?
+beacuse its not a "number" its an "integer" soo
+
+` %n ❌  %i ✅`
