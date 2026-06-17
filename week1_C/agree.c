@@ -5,11 +5,11 @@ int main(void)
 {
     char c = get_char("Do you agree to the T/C [Y/N]: ");
 
-    if (c == 'Y')
+    if (c == 'Y' || c == 'y')
     {
         printf("Good boyy\n");
     }
-    else if (c == 'N')
+    else if (c == 'N' || c == 'n')
     {
         printf("you are not allowed here\n");
     }
